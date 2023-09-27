@@ -11,7 +11,7 @@ scripts = glob.glob("bin/*")
 with open("README.rst") as stream:
     long_description = stream.read()
 
-github_url = 'https://github.com/deanmalmgren/textract'
+github_url = 'https://github.com/ai-wand/textract'
 
 
 def parse_requirements(requirements_filename):
@@ -42,8 +42,8 @@ dependencies, dependency_links = parse_requirements(requirements_filename)
 
 setup(
     name=textract.__name__,
-    version="1.6.5",
-    description="extract text from any document. no muss. no fuss.",
+    version="1.6.6",
+    description="Extract text from any document. no muss. no fuss.",
     long_description=long_description,
     url=github_url,
     download_url="%s/archives/master" % github_url,
